@@ -1,3 +1,9 @@
-## Sensor temperature recipe
+## Sensor temperature recipe 
+
+### 1. Circuit
 
 ![alt tag](http://i.imgur.com/6QHHsx5.png)
+
+### 2. Code
+
+
