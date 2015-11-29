@@ -1,4 +1,3 @@
 ## Sensor temperature recipe
 
-[http://imgur.com/6QHHsx5]
-[![Circuit](http://imgur.com/6QHHsx5])](#test)
+![alt tag](http://i.imgur.com/6QHHsx5.png)
