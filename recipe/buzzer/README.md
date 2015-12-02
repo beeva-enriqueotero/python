@@ -1,6 +1,8 @@
 ## Buzzer recipe
 
 
+test
+
 ```python
 import time
 import RPi.GPIO as gpio
