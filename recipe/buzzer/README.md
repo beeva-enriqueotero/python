@@ -4,24 +4,28 @@
 
 
 
-
-test2
-
 ```python
+#!/usr/bin/env python
+
+import RPi.GPIO as GPIO
 import time
-import RPi.GPIO as gpio
 
-gpio.setwarnings(False)
-gpio.setmode(gpio.BOARD)
-gpio.setup(7,gpio.OUT)
 
-try:
-    while True:
-        gpio.output(7,0)
-        time.sleep(.3)
-        gpio.output(7,1)
-        time.sleep(.3)
-except KeyboardInterrupt:
-    gpio.cleanup()
-    exit
+BUZZER = 17
+
+
+if __name__  == "__main__":
+
+    print "Init buzzer program"
+
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(BUZZER, GPIO.OUT)
+
+    while True:  
+        GPIO.output(BUZZER, True)
+        time.sleep(2)
+        GPIO.output(BUZZER, False)
+        time.sleep(2)
+
+    GPIO.cleanup()
 ```
