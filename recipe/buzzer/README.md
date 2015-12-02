@@ -1,6 +1,6 @@
 ## Buzzer recipe
 
-![alt tag](../static/buzzerfzz_bb.png)
+![alt tag](../../static/buzzerfzz_bb.png)
 
 
 
