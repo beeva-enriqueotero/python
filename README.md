@@ -9,12 +9,15 @@ Repository for Hack&amp;Beers RaspberryPi recipes
 * [Sensor Temperature](recipe/sensor_temperature/README.md)
 * [Sensor Light](recipe/sensor_light/README.md)
 
+### Protoboard
+
+![alt tag](static/conexiones_protoboard2.jpg)
 
 ### UART Laptop --> RPI
 
 Connect Laptop and RPI.
 
-![alt tag](static/FTDI-to-RasPi-300x194.png)
+![alt tag](static/uart_laptop_rpi_mini2_mini.jpg)
 
 | RPI   |      Module      |
 |----------|:-------------:|
