@@ -1,6 +1,5 @@
 # RPI GPIO 
 
-![alt tag](static/raspberry-pi-python-1-mini.jpg)
 
 Table of contents
 =================
@@ -14,6 +13,8 @@ Table of contents
 
 Python Recipes
 --------------
+
+![alt tag](static/raspberry-pi-python-1-mini.jpg)
 
 * [Led](recipe/led/README.md)
 * [Led RGB](recipe/rgb_led/README.md)
