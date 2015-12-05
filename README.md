@@ -9,6 +9,9 @@ Repository for Hack&amp;Beers RaspberryPi recipes
 * [Sensor Temperature](recipe/sensor_temperature/README.md)
 * [Sensor Light](recipe/sensor_light/README.md)
 
+### Protoboard
+
+![alt tag](static/conexiones_protoboard2.jpg)
 
 ### UART Laptop --> RPI
 
