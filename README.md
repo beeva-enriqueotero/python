@@ -18,6 +18,7 @@ Python Recipes
 
 * [Led](recipe/led/README.md)
 * [Led RGB](recipe/rgb_led/README.md)
+* [Push button](recipe/push_button/README.md)
 * [Buzzer](recipe/buzzer/README.md)
 * [Sensor Temperature](recipe/sensor_temperature/README.md)
 * [Sensor Light](recipe/sensor_light/README.md)
