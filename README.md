@@ -9,20 +9,20 @@ Repository for Hack&amp;Beers RaspberryPi recipes
 
 
 
-## Recipes
+#Recipes
 * [Led](recipe/led/README.md)
 * [Led RGB](recipe/rgb_led/README.md)
 * [Buzzer](recipe/buzzer/README.md)
 * [Sensor Temperature](recipe/sensor_temperature/README.md)
 * [Sensor Light](recipe/sensor_light/README.md)
 
-## Protoboard 
+#Protoboard 
 
 Internal connections
 
 ![alt tag](static/conexiones_protoboard2_mini.jpg)
 
-## UART
+#UART
 
 UART Laptop --> RPI
 
