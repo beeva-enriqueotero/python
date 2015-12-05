@@ -33,10 +33,13 @@ UART Laptop --> RPI
 
 
 UART port in RPI
+
 ![alt tag](static/mini-uart.jpg)
 
 Example module connection
+
 ![alt tag](static/uart_laptop_rpi_mini2_mini.jpg)
+
 
 | RPI   |      Module      |
 |----------|:-------------:|
