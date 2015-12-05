@@ -4,12 +4,10 @@ Repository for Hack&amp;Beers RaspberryPi recipes
 Table of contents
 =================
 
-* [Recipes](#Recipes)
-* [Protoboard](#Protoboard)
-* [UART](#UART)
+* [Recipes](#recipes)
+* [Protoboard](#protoboard)
+* [UART](#uart)
 
-Table of contents
-=================
 
 
 Recipes
