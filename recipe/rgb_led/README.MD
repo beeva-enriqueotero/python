@@ -1,19 +1,55 @@
 ## RGB led recipe
 
+![alt tag](../../static/led_rgb_bb.png)
+
+
+
 ```python
-#!/usr/bin/env python
-import wiringpi2 as wiringpi
-wiringpi.wiringPiSetup()
+#!/usr/bin/python
 
-PIN_RED=0
-PIN_GREEN=2
-PIN_BLUE=1
+import RPi.GPIO as GPIO
+import time
 
-wiringpi.pinMode(PIN_RED, wiringpi.GPIO.OUTPUT)
-wiringpi.pinMode(PIN_GREEN, wiringpi.GPIO.OUTPUT)
-wiringpi.pinMode(PIN_BLUE, wiringpi.GPIO.OUTPUT)
+SLEEP_TIME = 1
 
-wiringpi.digitalWrite(PIN_RED, 0)
-wiringpi.digitalWrite(PIN_GREEN, 0)
-wiringpi.digitalWrite(PIN_BLUE, 0)
+GPIO.cleanup()
+GPIO.setmode(GPIO.BOARD)
+
+# Red
+GPIO.setup(11,GPIO.OUT)
+GPIO.output(11,1)
+
+# Green
+GPIO.setup(13,GPIO.OUT)
+GPIO.output(13,1)
+
+# Blue
+GPIO.setup(15,GPIO.OUT)
+GPIO.output(15,1)
+
+def setColor(value1, value2, value3,sleep_time):
+    GPIO.output(11, value1)
+    GPIO.output(13, value2)
+    GPIO.output(15, value3)
+    time.sleep(sleep_time)
+
+
+if __name__ == "__main__":
+
+    try:
+        while(True):
+            setColor(1, 1, 1, SLEEP_TIME) 
+            setColor(1, 0, 1, SLEEP_TIME) 
+            setColor(0, 0, 1, SLEEP_TIME)
+            setColor(1, 0, 0, SLEEP_TIME)
+            setColor(0, 1, 0, SLEEP_TIME)
+            setColor(1, 1, 0, SLEEP_TIME)
+            setColor(0, 0, 0, SLEEP_TIME)
+            
+        
+    except KeyboardInterrupt:
+        GPIO.cleanup()
+
+
+
 ```

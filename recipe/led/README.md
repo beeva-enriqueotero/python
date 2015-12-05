@@ -1,37 +1,47 @@
-## Basic led
+
+
+## Led basic recipe
+
+![alt tag](../../static/led_basic_bb.png)
+
+
+
 
 ```python
-import RPi.GPIO as GPIO ## Import GPIO library
-GPIO.setmode(GPIO.BOARD) ## Use board pin numbering
-GPIO.setup(7, GPIO.OUT) ## Setup GPIO Pin 7 to OUT
-GPIO.output(7,True) ## Turn on GPIO pin 7
-```
+#!/usr/bin/env python
 
-### Blinking Light
-```python
-import RPi.GPIO as GPIO ## Import GPIO library
-import time ## Import 'time' library. Allows us to use 'sleep'
+import RPi.GPIO as GPIO
+import time
 
-GPIO.setmode(GPIO.BOARD) ## Use board pin numbering
-GPIO.setup(7, GPIO.OUT) ## Setup GPIO Pin 7 to OUT
+LED = 7
 
-##Define a function named Blink()
-def Blink(numTimes,speed):
-    for i in range(0,numTimes):## Run loop numTimes
-    print "Iteration " + str(i+1)## Print current loop
-    GPIO.output(7,True)## Switch on pin 7
-    time.sleep(speed)## Wait
-    GPIO.output(7,False)## Switch off pin 7
-    time.sleep(speed)## Wait
-    print "Done" ## When loop is complete, print "Done"
+
+def setup(led):
+
     GPIO.cleanup()
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(led, GPIO.OUT)
 
-## Ask user for total number of blinks and length of each blink
-iterations = raw_input("Enter total number of times to blink: ")
-speed = raw_input("Enter length of each blink(seconds): ")
+def blink(led):
 
-## Start Blink() function. Convert user input from strings to numeric data types and pass to Blink() as parameters
-Blink(int(iterations),float(speed))
+    GPIO.output(led, GPIO.HIGH)
+    time.sleep(2)
+    GPIO.output(led, GPIO.LOW)
+    time.sleep(2)
+
+
+
+if __name__  == "__main__":
+
+    setup(LED)
+    
+    try:
+        while True:
+            print "Blink led"
+            blink(LED)
+    except KeyboardInterrupt:
+        print "Exception"
+        GPIO.cleanup()
 ```
 
 
