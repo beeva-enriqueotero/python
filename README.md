@@ -1,4 +1,4 @@
-# HACK&BEER --> RPI
+# RPI GPIO
 Repository for Hack&amp;Beers RaspberryPi recipes
 
 
