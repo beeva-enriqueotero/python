@@ -1,4 +1,4 @@
-# raspberry
+# [HACK&BEER]Raspberry PI
 Repository for Hack&amp;Beers RaspberryPi recipes
 
 
