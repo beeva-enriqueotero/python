@@ -1,28 +1,35 @@
 # RPI GPIO
 Repository for Hack&amp;Beers RaspberryPi recipes
 
-# Table of Contents
-1. [PYTHON RPI GPIO Recipes](#Recipes)
-2. [Protoboard](#Protoboard)
-3. [UART](#UART)
+Table of contents
+=================
+
+* [Recipes](#Recipes)
+* [Protoboard](#Protoboard)
+* [UART](#UART)
+
+Table of contents
+=================
 
 
+Recipes
+=======
 
-
-#Recipes
 * [Led](recipe/led/README.md)
 * [Led RGB](recipe/rgb_led/README.md)
 * [Buzzer](recipe/buzzer/README.md)
 * [Sensor Temperature](recipe/sensor_temperature/README.md)
 * [Sensor Light](recipe/sensor_light/README.md)
 
-#Protoboard 
+Protoboard
+==========
 
 Internal connections
 
 ![alt tag](static/conexiones_protoboard2_mini.jpg)
 
-#UART
+UART
+====
 
 UART Laptop --> RPI
 
