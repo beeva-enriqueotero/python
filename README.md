@@ -1,5 +1,8 @@
-# RPI GPIO
-Repository for Hack&amp;Beers RaspberryPi recipes
+# RPI GPIO 
+
+![alt tag](static/raspberry-pi-python-1-mini.jpg)
+
+
 
 Table of contents
 =================
