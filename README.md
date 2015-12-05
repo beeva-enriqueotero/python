@@ -25,6 +25,7 @@ sudo apt-ger install ckermit # Install ckermit program (for serial port)
 sudo reboot
 sudo kermit -l /dev/ttyAMA0 # (or /dev/ttyAMA1)
 
+# Configuration
 C-Kermit> set speed 115200
 C-Kermit> set parity none
 C-Kermit> set flow-control none
@@ -39,6 +40,7 @@ or followed by ? to see other options.
 # Click enter
 
 ```
+
 
 
 
