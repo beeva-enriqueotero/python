@@ -4,9 +4,9 @@ Repository for Hack&amp;Beers RaspberryPi recipes
 Table of contents
 =================
 
-* [Recipes](#python-recipes)
-* [Protoboard](#protoboard-internal-connections)
-* [UART](#access-to-rpi-from-laptop)
+* [Python Recipes](#python-recipes)
+* [Protoboard internal connections](#protoboard-internal-connections)
+* [Access to RPI from laptop](#access-to-rpi-from-laptop)
 
 
 
