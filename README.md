@@ -14,7 +14,7 @@ Repository for Hack&amp;Beers RaspberryPi recipes
 
 Connect Laptop and RPI.
 
-![alt tag](static/FTDI-to-RasPi-300x194.png)
+![alt tag](static/uart_laptop_rpi_mini2_mini.jpg)
 
 | RPI   |      Module      |
 |----------|:-------------:|
