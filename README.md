@@ -43,6 +43,13 @@ or followed by ? to see other options.
 ----------------------------------------------------
 # Click enter
 
+Raspbian GNU/Linux 7 raspberrypi ttyAMA0
+
+raspberrypi login: pi
+Password:
+
+pi@raspberrypi:~$ 
+
 ```
 
 
