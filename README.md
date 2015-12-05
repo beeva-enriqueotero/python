@@ -11,7 +11,7 @@ Repository for Hack&amp;Beers RaspberryPi recipes
 
 ### Protoboard
 
-![alt tag](static/conexiones_protoboard2.jpg)
+![alt tag](static/conexiones_protoboard2_mini.jpg)
 
 ### UART Laptop --> RPI
 
