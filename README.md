@@ -8,6 +8,7 @@ Table of contents
 * [Python Recipes](#python-recipes)
 * [Protoboard internal connections](#protoboard-internal-connections)
 * [Access to RPI from laptop](#access-to-rpi-from-laptop)
+* [GPIO pinout](#gpio-pinout)
 
 
 
@@ -28,8 +29,6 @@ Protoboard internal connections
 
 Access to RPI from laptop
 -------------------------
-
-UART Laptop --> RPI
 
 
 UART port in RPI
@@ -76,6 +75,11 @@ Password:
 pi@raspberrypi:~$ 
 
 ```
+
+GPIO pinout
+-----------
+
+![alt tag](static/Raspberry-Pi-GPIO-pinouts.png)
 
 
 
