@@ -2,8 +2,6 @@
 
 ![alt tag](static/raspberry-pi-python-1-mini.jpg)
 
-
-
 Table of contents
 =================
 
