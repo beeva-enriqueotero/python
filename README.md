@@ -4,14 +4,14 @@ Repository for Hack&amp;Beers RaspberryPi recipes
 Table of contents
 =================
 
-* [Recipes](#recipes)
-* [Protoboard](#protoboard)
-* [UART](#uart)
+* [Recipes](#python-recipes)
+* [Protoboard](#protoboard-internal-connections)
+* [UART](#access-to-rpi-from-laptop)
 
 
 
-Recipes
---------
+Python Recipes
+--------------
 
 * [Led](recipe/led/README.md)
 * [Led RGB](recipe/rgb_led/README.md)
@@ -19,15 +19,14 @@ Recipes
 * [Sensor Temperature](recipe/sensor_temperature/README.md)
 * [Sensor Light](recipe/sensor_light/README.md)
 
-Protoboard
-----------
+Protoboard internal connections
+-------------------------------
 
-Internal connections
 
 ![alt tag](static/conexiones_protoboard2_mini.jpg)
 
-UART
-----
+Access to RPI from laptop
+-------------------------
 
 UART Laptop --> RPI
 
