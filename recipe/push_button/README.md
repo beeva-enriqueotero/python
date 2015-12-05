@@ -1,4 +1,4 @@
-## Buzzer recipe
+## Push button recipe
 
 ![alt tag](../../static/push_button.jpg)
 
