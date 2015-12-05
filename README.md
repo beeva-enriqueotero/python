@@ -1,4 +1,4 @@
-# [HACK&BEER]Raspberry PI
+# HACK&BEER --> RPI
 Repository for Hack&amp;Beers RaspberryPi recipes
 
 
@@ -14,7 +14,7 @@ Repository for Hack&amp;Beers RaspberryPi recipes
 
 Connect Laptop and RPI.
 
-![alt tag](../static/FTDI-to-RasPi-300x194.png)
+![alt tag](../../static/FTDI-to-RasPi-300x194.png)
 
 | RPI   |      Module      |
 |----------|:-------------:|
