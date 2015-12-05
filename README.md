@@ -1,4 +1,4 @@
-# [HACK&BEER]Raspberry PI
+# HACK&BEER --> RPI
 Repository for Hack&amp;Beers RaspberryPi recipes
 
 
@@ -13,6 +13,8 @@ Repository for Hack&amp;Beers RaspberryPi recipes
 ### UART Laptop --> RPI
 
 Connect Laptop and RPI.
+
+![alt tag](static/FTDI-to-RasPi-300x194.png)
 
 | RPI   |      Module      |
 |----------|:-------------:|
@@ -40,6 +42,13 @@ Type the escape character followed by C to get back,
 or followed by ? to see other options.
 ----------------------------------------------------
 # Click enter
+
+Raspbian GNU/Linux 7 raspberrypi ttyAMA0
+
+raspberrypi login: pi
+Password:
+
+pi@raspberrypi:~$ 
 
 ```
 
