@@ -1,6 +1,5 @@
 # RPI GPIO 
 
-![alt tag](static/raspberry-pi-python-1-mini.jpg)
 
 Table of contents
 =================
@@ -8,14 +7,18 @@ Table of contents
 * [Python Recipes](#python-recipes)
 * [Protoboard internal connections](#protoboard-internal-connections)
 * [Access to RPI from laptop](#access-to-rpi-from-laptop)
+* [GPIO pinout](#gpio-pinout)
 
 
 
 Python Recipes
 --------------
 
+![alt tag](static/raspberry-pi-python-1-mini.jpg)
+
 * [Led](recipe/led/README.md)
 * [Led RGB](recipe/rgb_led/README.md)
+* [Push button](recipe/push_button/README.md)
 * [Buzzer](recipe/buzzer/README.md)
 * [Sensor Temperature](recipe/sensor_temperature/README.md)
 * [Sensor Light](recipe/sensor_light/README.md)
@@ -29,11 +32,15 @@ Protoboard internal connections
 Access to RPI from laptop
 -------------------------
 
-UART Laptop --> RPI
 
-Connect Laptop and RPI.
+UART port in RPI
+
+![alt tag](static/mini-uart.jpg)
+
+Example module connection
 
 ![alt tag](static/uart_laptop_rpi_mini2_mini.jpg)
+
 
 | RPI   |      Module      |
 |----------|:-------------:|
@@ -70,6 +77,11 @@ Password:
 pi@raspberrypi:~$ 
 
 ```
+
+GPIO pinout
+-----------
+
+![alt tag](static/Raspberry-Pi-GPIO-pinouts.png)
 
 
 
