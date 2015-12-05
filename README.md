@@ -14,11 +14,11 @@ Repository for Hack&amp;Beers RaspberryPi recipes
 
 Connect Laptop and RPI.
 
-RPI wiring
-GPIO14 --> UART RX
-GPIO15 --> UART Tx
-GND
-5V
+RPI wiring.
+GPIO14 (UART RX)
+GPIO15 (UART Tx)
+GND (ground)
+5V (power)
 
 ```bash
 sudo apt-ger install ckermit # Install ckermit program (for serial port)
