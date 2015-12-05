@@ -11,7 +11,7 @@ Table of contents
 
 
 Recipes
-=======
+--------
 
 * [Led](recipe/led/README.md)
 * [Led RGB](recipe/rgb_led/README.md)
@@ -20,14 +20,14 @@ Recipes
 * [Sensor Light](recipe/sensor_light/README.md)
 
 Protoboard
-==========
+----------
 
 Internal connections
 
 ![alt tag](static/conexiones_protoboard2_mini.jpg)
 
 UART
-====
+----
 
 UART Laptop --> RPI
 
