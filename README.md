@@ -17,7 +17,7 @@ Python Recipes
 ![alt tag](static/raspberry-pi-python-1-mini.jpg)
 
 * [Led](recipe/led/README.md)
-* [Led RGB](recipe/rgb_led/README.md)
+* [Led RGB](recipe/rgb_led/README.MD)
 * [Push button](recipe/push_button/README.md)
 * [Buzzer](recipe/buzzer/README.md)
 * [Sensor Temperature](recipe/sensor_temperature/README.md)
