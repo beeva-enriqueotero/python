@@ -22,6 +22,7 @@ Python Recipes
 * [Buzzer](recipe/buzzer/README.md)
 * [Sensor Temperature](recipe/sensor_temperature/README.md)
 * [Sensor Light](recipe/sensor_light/README.md)
+* [Mini placas de Leds](recipe/mini_placas_leds)
 
 Protoboard internal connections
 -------------------------------
