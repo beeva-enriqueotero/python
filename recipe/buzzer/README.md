@@ -1,5 +1,9 @@
 ## Buzzer recipe
 
+![alt tag](../../static/buzzer.jpg)
+
+Circuit
+
 ![alt tag](../../static/buzzerfzz_bb.png)
 
 
