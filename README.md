@@ -28,12 +28,15 @@ Protoboard
 -------------------------------
 
 Internal connections
+
 ![alt tag](static/conexiones_protoboard2_mini.jpg)
 
 Wires 
+
 ![alt tag](static/cables.jpg)
 
 Connections
+
 ![alt tag](static/protoboard_cables.jpg)
 
 
