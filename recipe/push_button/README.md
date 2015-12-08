@@ -7,6 +7,10 @@ Push button
 
 ![alt tag](../../static/push_button_colors_mini.jpg)
 
+Push button internal
+
+![alt tag](../../static/push_button_diagram.jpg)
+
 
 Circuit
 
