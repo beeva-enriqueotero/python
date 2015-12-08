@@ -2,4 +2,4 @@
 
 
 
-![alt tag](../../static/push_button.jpg)
+![alt tag](../../static/mini_placas_led.jpg)
