@@ -1,5 +1,8 @@
 # RPI GPIO 
 
+![alt tag](static/localizacion_GPIO.png)
+
+
 
 Table of contents
 =================
