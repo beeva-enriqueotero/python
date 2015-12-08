@@ -3,8 +3,13 @@
 
 ![alt tag](../../static/button_circuit_mini.jpg)
 
+Push button
+
+![alt tag](../../static/push_button_colors_mini.jpg)
+
 
 Circuit
+
 ![alt tag](../../static/push_button.jpg)
 
 

@@ -1,6 +1,6 @@
 ## Buzzer recipe
 
-![alt tag](../../static/buzzer.jpg)
+![alt tag](../../static/buzzer_mini.jpg)
 
 Circuit
 
