@@ -1,5 +1,9 @@
 ## Sensor light recipe
 
+![alt tag](../../static/sensor_luz_mini.jpg)
+
+
+Circuit
 ![alt tag](../../static/rpi_ldr.jpg)
 
 
