@@ -24,11 +24,15 @@ Python Recipes
 * [Sensor Light](recipe/sensor_light/README.md)
 * [Mini placas de Leds](recipe/mini_placas_leds)
 
-Protoboard internal connections
+Protoboard
 -------------------------------
 
 
 ![alt tag](static/conexiones_protoboard2_mini.jpg)
+
+Wires 
+
+![alt tag](../../static/cables.jpg)
 
 Access to RPI from laptop
 -------------------------
