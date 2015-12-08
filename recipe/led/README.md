@@ -2,6 +2,10 @@
 
 ## Led basic recipe
 
+![alt tag](../../static/polaridad_led.jpeg)
+
+Circuit
+
 ![alt tag](../../static/led_basic_bb.png)
 
 
