@@ -1,9 +1,10 @@
 ## Push button recipe
 
 
-![alt tag](../../static/sensor_luz_mini.jpg)
+![alt tag](../../static/button_circuit_mini.jpg)
 
 
+Circuit
 ![alt tag](../../static/push_button.jpg)
 
 
