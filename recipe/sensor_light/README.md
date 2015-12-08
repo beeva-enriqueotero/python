@@ -2,6 +2,10 @@
 
 ![alt tag](../../static/sensor_luz_mini.jpg)
 
+Sensor
+
+![alt tag](../../static/LDR.jpg)
+
 
 Circuit
 ![alt tag](../../static/rpi_ldr.jpg)
