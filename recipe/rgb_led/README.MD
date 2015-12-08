@@ -1,5 +1,10 @@
 ## RGB led recipe
 
+
+![alt tag](../../static/rgb_led.jpg)
+
+Circuit
+
 ![alt tag](../../static/led_rgb_bb.png)
 
 
