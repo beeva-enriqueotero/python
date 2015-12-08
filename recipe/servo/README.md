@@ -4,6 +4,9 @@ El servo-motor deberia estar alimentado con una fuente de alimentación externa 
 
 Para realizar esta receta lo limentaremos con la RPI con la salida de 3.3V, al no disponer de suficiente voltaje el funcionamiento no sera el optimo. 
 
+![alt tag](../../static/servo_mini.jpg)
+
+
 
 ```python
 #!/usr/bin/env python
