@@ -63,6 +63,11 @@ Example module connection
 | Rx | GPIO 15 (UART RXD) |
 | Gnd | GND |
 
+```bash
+sudo apt-get install screen
+screen /dev/ttyUSB0 115200
+```
+Otra manera
 
 ```bash
 sudo apt-ger install ckermit # Install ckermit program (for serial port)
